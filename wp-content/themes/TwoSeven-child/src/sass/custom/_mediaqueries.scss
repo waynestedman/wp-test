@@ -1,0 +1,367 @@
+@media only screen and (max-width: 599px) {
+  // .cms-page-view .column.main p {
+  //   margin: 0 auto 10px auto;
+  // }
+  .content-wrapper {
+    h1 {
+      font-size: 4.5rem;
+    }
+    h2 {
+      font-size: 3.5rem;
+    }
+    h3 {
+      font-size: 2.6rem;
+    }
+    h4 {
+      font-size: 3rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    h5 {
+      font-size: 2.5rem;
+    }
+    h6 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+  } // content-wrapper
+
+// intro section
+  #intro {
+    flex-direction: column;
+    text-align: center;
+
+    .introText {
+      position: inherit;
+      top: inherit;
+      left: inherit;
+      width: 98%;
+    }
+  } // intro
+
+// products section
+  .slm, .mpp {
+    flex-direction: column;
+  }
+  .slmImg, .mppImg {
+    width: 100%;
+  }
+  .slmText, .mppText {
+    width: 100%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  // .slmText {
+  //
+  // }
+  .mppImg {
+    order: 2;
+  }
+  .mppText {
+    order: 1;
+  }
+
+// choose section
+  #choose {
+    .chooseSlm {
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 5rem;
+
+      .chooseSlm-text {
+        order: 2;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 0;
+      }
+      .chooseSlm-img {
+        order: 1;
+        width: 100%;
+      }
+    } // chooseSlm
+    .chooseMpp {
+      flex-direction: column;
+      text-align: center;
+
+      .chooseMpp-text {
+        order: 2;
+        width: 100%;
+        padding-top: 0;
+        padding-right: 0;
+        text-align: center;
+
+        h3 {
+          padding-left: 0;
+        }
+      }
+      .chooseMpp-img {
+        order: 1;
+        width: 100%;
+      }
+    } // chooseMpp
+  } //choose
+
+// differences section
+  #differences {
+    .differences-img {
+      margin-bottom: 0;
+      width: 100%;
+    }
+    .differences-l, .differences-r {
+      margin-bottom: 3rem;
+    }
+    .differencesText-l {
+      position: absolute;
+      top: 1%;
+      left: 0;
+      width: 65%;
+
+      ul {
+        padding-left: 30px;
+        padding-right: 10px;
+      }
+    }
+    .differencesText-r {
+      position: absolute;
+      top: 48%;
+      right: 0;
+      width: 65%;
+
+      ul {
+        padding-left: 30px;
+        padding-right: 10px;
+      }
+    }
+    .proTip {
+      max-height: inherit;
+      padding: 2%;
+
+      p {
+        margin-left: 8%;
+        width: 83%;
+      }
+    }
+  } // differences
+
+// Before & After section
+  #beforeAfter {
+    .beforeAfter-wrapper {
+      text-align: center;
+      flex-direction: column;
+      padding: 0 1%;
+
+      .beforeAfter-l, .beforeAfter-r {
+        padding: inherit;
+        margin: 0 auto 2rem auto;
+        width: 100%;
+
+        h5 {
+          text-align: center;
+        }
+        .beforeAfter-imgs {
+          .beforePic, .afterPic {
+            max-width: 140px;
+            margin: 0 6px;
+          }
+          .afterPic {
+            float: inherit;
+          }
+          h6 {
+            text-align: center;
+          }
+        }
+        .beforeAfter-text {
+          text-align: center;
+        }
+      }
+    } // beforeAfter-wrapper
+  } //beforeAfter
+
+} // Mobile - everything smaller than 600
+@media only screen and (max-width: 1024px) and (min-width: 599px) {
+  .content-wrapper {
+    h1 {
+      font-size: 5rem;
+      line-height: 1;
+    }
+    h2 {
+      font-size: 4.1rem;
+    }
+    h3 {
+      font-size: 2.6rem;
+    }
+  //   h4 {
+  //     font-size: 50px;
+  //   }
+    h5 {
+      font-size: 2.4rem;
+      line-height: 1.1;
+      margin-bottom: 1.5rem;
+    }
+    p {
+      font-size: 1.7rem;
+    }
+  } // content-wrapper
+// intro section
+  #intro {
+    .introText {
+      top: 4%;
+      left: 55%;
+
+      p {
+        width: 98%;
+      }
+      h6 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+  } // intro
+// products section
+  .slmText, .mppText {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+// choose section
+  #choose {
+    .chooseSlm {
+      .chooseSlm-text {
+        width: 55%;
+        padding-top: 2%;
+        padding-left: 2%;
+      }
+    }
+    .chooseMpp {
+      margin-top: 3%;
+
+      .chooseMpp-text {
+        width: 55%;
+        padding-top: 8%;
+        padding-right: 2%;
+      }
+    }
+  } // choose
+//differences section
+  #differences {
+    .differencesText-l {
+      top: 0;
+      left: 0;
+      width: 32%;
+    }
+    .differencesText-r {
+      top: 0;
+      right: 2%;
+      width: 32%;
+    }
+  } // differences
+// before & after secion
+#beforeAfter {
+  .beforeAfter-wrapper {
+    text-align: center;
+    flex-direction: column;
+    padding: 0 1%;
+
+    .beforeAfter-l, .beforeAfter-r {
+      padding: inherit;
+      margin: 0 auto 2rem auto;
+      width: 92%;
+
+      h5 {
+        text-align: center;
+      }
+      .beforeAfter-imgs {
+        .beforePic, .afterPic {
+          max-width: 250px;
+          margin: 0 2%;
+        }
+        .afterPic {
+          float: inherit;
+        }
+        h6 {
+          text-align: center;
+          margin: 0;
+        }
+      }
+      .beforeAfter-text {
+        text-align: center;
+      }
+    } // beforeAfter-l & -r
+  } // beforeAfter-wrapper
+} // before after
+
+
+} // min 599 to max 1024 - Tablet
+@media only screen and (max-width: 650px) and (min-width: 600px) {
+  .content-wrapper {
+    h1 {
+      font-size: 4.3rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2.5rem;
+    }
+    h5 {
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+  #differences {
+    .differencesText-l {
+      top: 0;
+      left: 0;
+      width: 35%;
+
+      ul {
+        padding-left: 20px;
+        padding-right: 10px;
+
+        li {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    .differencesText-r {
+      top: 0;
+      right: 0;
+      width: 35%;
+
+      ul {
+        padding-left: 30px;
+        padding-right: 10px;
+
+        li {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  } // differences
+  #beforeAfter {
+    .beforeAfter-wrapper {
+      .beforeAfter-l, .beforeAfter-r {
+        .beforeAfter-imgs {
+          .beforePic, .afterPic {
+            max-width: 225px;
+          }
+        }
+      } // beforeAfter-l & -r
+    } // beforeAfter-wrapper
+  } // before after
+} // min 600 to max 650 - Tablet exceptions
+@media only screen and (max-width: 460px) {
+  #products {
+    .slmText, .mppText {
+      h2 {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+} // under 460px - mobile exceptions
