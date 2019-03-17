@@ -1,0 +1,33 @@
+# WP stuff #
+######################
+/wp-admin
+/wp-includes
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store*
+thumbs.db
+.idea
+Icon?
+Thumbs.db
+*.sass-cache
+.sass-cache
+/.sass-cache
+npm-debug.log
+node_modules
+.tmp
+
+# Project folders #
+######################
+_source-images
+_for-upload
+_originals
+/PSDs
+/_addons
+/_final-images
