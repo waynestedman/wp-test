@@ -1,6 +1,6 @@
 // Typography
-$baseFontFamily: 'Lato',Helvetica,Arial,sans-serif;
-// $heading-font-family: 'Lato',Helvetica,Arial,sans-serif;
+$baseFontFamily: 'Raleway', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;
 
 // Line height
 $base-line-height: 1.4;
@@ -34,13 +34,12 @@ $border: 1px solid $border-color;
 // Background Colors
 $viewportBackground-color: #DDDDDD;
 
-/* Focus
-$focus-outline-color: transparentize($action-color, 0.4);
-$focus-outline-width: 3px;
-$focus-outline: $focus-outline-width solid $focus-outline-color;
-$focus-outline-offset: 2px;
-
-// Animations
-$base-duration: 150ms;
-$base-timing: ease;
-*/
+// // Focus
+// $focus-outline-color: transparentize($action-color, 0.4);
+// $focus-outline-width: 3px;
+// $focus-outline: $focus-outline-width solid $focus-outline-color;
+// $focus-outline-offset: 2px;
+//
+// // Animations
+// $base-duration: 150ms;
+// $base-timing: ease;

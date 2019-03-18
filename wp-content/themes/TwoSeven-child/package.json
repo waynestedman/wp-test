@@ -1,7 +1,7 @@
 {
-  "name": "mascara",
+  "name": "wp-exp",
   "version": "1.0.1",
-  "description": "Mascara info page",
+  "description": "Experimental WordPress site",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waynestedman/Mascara.git"
+    "url": "https://github.com/waynestedman/wp-test.git"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.6",
@@ -27,7 +27,7 @@
     "npm": "^6.4.1"
   },
   "keywords": [
-    "DHC",
-    "mascara"
+    "Wayne Stedman",
+    "WordPress"
   ]
 }
